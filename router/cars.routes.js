@@ -21,6 +21,7 @@ const cars = Router();
 cars.get("/cars", GET);
 cars.get("/cars/:id", GET);
 cars.post("/cars", POST);
+
 cars.put("/cars", PUT);
 cars.delete("/cars", DELETE);
 module.exports = {
